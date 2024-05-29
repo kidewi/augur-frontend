@@ -12,21 +12,6 @@ Augur is a predictive supply chain management system designed to provide greater
 - Integrates with PepsiCo’s existing predictive shipping data pipeline
 - Emphasizes extendibility for future enhancements
 
-## Project Structure
-
-augur-frontend/
-├── public/
-├── src/
-│ ├── components/
-│ │ ├── DistributorCard.js
-│ │ └── Dashboard.js
-│ ├── data/
-│ │ └── mockData.js
-│ ├── App.js
-│ ├── App.css
-│ ├── index.js
-└── package.json
-
 ## Getting Started
 
 ### Prerequisites

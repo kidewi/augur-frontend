@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Augur Supply Chain Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="./img/augur.png" alt="Augur Frontend UI" width="744" height="465" />
+</div>
 
-## Available Scripts
+Augur is a predictive supply chain management system designed to provide greater visibility into the decisions made by PepsiCo’s predictive shipping models. The system includes a browser-based dashboard that displays various metrics for PepsiCo’s distributors.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Displays distributor metrics:
+  - Name
+  - Quantity of goods shipped last month
+  - Forecasted quantity of goods to ship this month
+  - Year-to-date average quantity of goods shipped
+- Integrates with PepsiCo’s existing predictive shipping data pipeline
+- Emphasizes extendibility for future enhancements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
+- Node.js (which includes npm and npx)
 
-### `npm test`
+### Installation
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/augur-frontend.git
+    cd augur-frontend
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-### `npm run build`
+3. **Start the development server:**
+    ```bash
+    npm start
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Open your browser and navigate to:**
+    ```
+    http://localhost:3000
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The dashboard displays mock data for now.
+- Future integration with the backend will provide real-time data from the predictive shipping model.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Fork the repository.**
+2. **Create your feature branch** (`git checkout -b feature/AddedFeature`).
+3. **Commit your changes** (`git commit -m 'added feature'`).
+4. **Push to the branch** (`git push origin feature/AddedFeature`).
+5. **Open a pull request.**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Thanks to the team at PepsiCo for their support and feedback.

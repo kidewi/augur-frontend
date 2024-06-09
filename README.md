@@ -1,6 +1,5 @@
 # Augur Supply Chain Dashboard
 
-<<<<<<< HEAD
 <div align="center">
   <img src="./img/augur.png" alt="Augur Frontend UI" width="744" height="465" />
 </div>

@@ -55,14 +55,6 @@ Augur is a predictive supply chain management system designed to provide greater
 5. **Open a pull request.**
 
 
-## Contributing
-
-1. **Fork the repository.**
-2. **Create your feature branch** (`git checkout -b feature/AddedFeature`).
-3. **Commit your changes** (`git commit -m 'added feature'`).
-4. **Push to the branch** (`git push origin feature/AddedFeature`).
-5. **Open a pull request.**
-
 ## Acknowledgements
 
 - Thanks to the team at PepsiCo for their support and feedback.
